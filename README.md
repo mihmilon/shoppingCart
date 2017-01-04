@@ -21,15 +21,32 @@ Next, we can redirect the dump file into our newly created database by issuing t
 mysql -u username -p database_name < backup_name.sql
 
 Your information should now be restored to the database you've created.
+
 ----------------------------------------------------------------------
 To confirm use the following command
 show databases;
 ----------------------------------------------------------------------
 2nd: How to run the program
-
   1. Start mysql server
   sudo service mysql start
   2. Compile the program. (database_c.c is the file name)
   gcc -o output $(mysql_config --cflags) database_c.c $(mysql_config --libs)
   3. run the program
   ./output
+----------------------------------------------------------------------
+After running the program use ID 1 or 2. I have already created user with these ID. you need to do it manually.
+
+Then you will have a menu.
+///////////////////
+1. show product
+2. My Shopping Cart
+3. Check out
+4. Exit
+
+Selection option:
+///////////////////
+
+The program is self deriving. So you can easily go through the code.
+
+For more information contack me.
+www.mihmilon.com
