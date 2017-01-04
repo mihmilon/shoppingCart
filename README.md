@@ -37,14 +37,13 @@ show databases;
 After running the program use ID 1 or 2. I have already created user with these ID. you need to do it manually.
 
 Then you will have a menu.
-///////////////////
+
 1. show product
 2. My Shopping Cart
 3. Check out
 4. Exit
 
 Selection option:
-///////////////////
 
 The program is self deriving. So you can easily go through the code.
 
